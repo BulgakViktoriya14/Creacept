@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px) {
+	.sidebar .menu_link {
+    	font-size: 14px;
+    	line-height: 14px;
+	}
+	.sidebar {
+    	flex-basis: 200px;
+	}
+	.wrapper-content {
+    	flex-basis: calc(100% - 200px);
+	}
+	.gallery {
+    	width: 100%;
+	}
+}
+@media screen and (max-width: 450px) {
+	.header .menu_link {
+    	font-size: 16px;
+	    line-height: 16px;
+	}
+	.breadcrumbs {
+    	font-size: 10px;
+    	line-height: 10px;
+	}
+	.block-image {
+    	width: 150px;
+	}
+	.image {
+    	height: 150px;
+	}
+	.image-title {
+    	font-size: 18px;
+    	line-height: 22px;
+	}
+	.sidebar .menu_link {
+    	font-size: 12px;
+    	line-height: 12px;
+	}
+}
